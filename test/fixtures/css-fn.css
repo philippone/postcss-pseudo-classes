@@ -1,0 +1,15 @@
+:host(:disabled) {
+  color: red;
+}
+
+:host(:active) {
+  color: yellow;
+}
+
+:not(:host) {
+  color: blue;
+}
+
+:not(.selected) {
+  color: orange;
+}
